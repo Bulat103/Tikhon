@@ -48,7 +48,9 @@ button.vjs-big-play-button {
 #intersection {
   height: 50px;
 }
-
+img {
+  z-index: 1;
+}
 /* ------------------PRELOADER------------------------ */
 .preloader {
   display: flex;
@@ -85,6 +87,7 @@ header {
   animation: fadeIn 5s ease-in-out;
   z-index: 10;
   padding: 1rem;
+  position: relative;
 }
 
 .anchors {
@@ -92,6 +95,7 @@ header {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  z-index: 10;
 }
 
 .anchors a {
