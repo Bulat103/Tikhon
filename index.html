@@ -3,19 +3,158 @@
   <head>
     <meta charset="UTF-8" />
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    /> -->
   </head>
 
   <body>
-    <div id="app">
-      <div class="preview_img">
-        <img
-          src="https://i.ytimg.com/vi_webp/AqZH9AdpjIU/maxresdefault.webp"
-          alt="Bork"
-          width="300px"
-          height="200px"
-        />
-        <button>play</button>
-      </div>
+    <div class="preloader">
+      <div class="loading-text">| | | | | | | LOADING ||||||</div>
     </div>
+    <header>
+      <div class="header_btns">
+        <div class="anchors">
+          <a href="#portfolio" class="portfolio_btn">PORTFOLIO</a>
+          <a href="#contact" class="feedback_btn">FEEDBACK</a>
+        </div>
+        <div class="social-icons">
+          <a
+            href="https://t.me/musmaker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="mailto:filatovmsk@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="title_main">
+        <h2>
+          Tikhon Filatov///////// music and audio-production commercial reel
+        </h2>
+      </section>
+      <section>
+        <div class="tags_block">
+          <div class="tags">
+            <div class="tag_title">
+              <h3>clients:</h3>
+            </div>
+            <div class="tags_collection">
+              <button class="hashtag" data-tag="yandex">YANDEX</button>
+              <button class="hashtag" data-tag="rzd">РЖД</button>
+              <button class="hashtag" data-tag="bork">BORK</button>
+              <button class="hashtag" data-tag="mts">МТС</button>
+              <button class="hashtag" data-tag="vk">VK</button>
+              <button class="hashtag" data-tag="sber">СБЕР</button>
+              <button class="hashtag" data-tag="nestle">NESTLE</button>
+              <button class="hashtag" data-tag="alfa">АЛЬФАБАНК</button>
+              <button class="hashtag" data-tag="nescafe">NESCAFE</button>
+              <button class="hashtag" data-tag="nissan">NISSAN</button>
+              <button class="hashtag" data-tag="ar">ADRENALINE RUSH</button>
+              <button class="hashtag" data-tag="philips">PHILIPS</button>
+              <button class="hashtag" data-tag="zarina">ZARINA</button>
+              <button class="hashtag" data-tag="minkult">МИНКУЛЬТ</button>
+              <button class="hashtag" data-tag="souz">СОЮЗМУЛЬТФИЛЬМ</button>
+              <button class="hashtag" data-tag="other">ДРУГИЕ БРЕНДЫ</button>
+            </div>
+          </div>
+          <div class="tags">
+            <div class="tags_title">
+              <h3>styles, moods and instruments:</h3>
+            </div>
+            <div class="tags_collection">
+              <button class="hashtag" data-tag="orchestral">orchestral</button>
+              <button class="hashtag" data-tag="acoustic">acoustic</button>
+              <button class="hashtag" data-tag="epic">epic</button>
+              <button class="hashtag" data-tag="cinematic">cinematic</button>
+              <button class="hashtag" data-tag="uprising">uprising</button>
+              <button class="hashtag" data-tag="happy">happy</button>
+              <button class="hashtag" data-tag="songs">songs</button>
+              <button class="hashtag" data-tag="electronic">idm/electro</button>
+              <button class="hashtag" data-tag="funky">jazz/funk/80's</button>
+              <button class="hashtag" data-tag="rock">rock</button>
+              <button class="hashtag" data-tag="hip-hop">hip-hop</button>
+              <button class="hashtag" data-tag="dark">dark</button>
+              <button class="hashtag" data-tag="beats">beats</button>
+              <button class="hashtag" data-tag="piano">keyboards</button>
+              <button class="hashtag" data-tag="strings">string section</button>
+              <button class="hashtag" data-tag="vocal">vocal</button>
+              <button class="hashtag" data-tag="guitar">guitar</button>
+              <button class="hashtag" data-tag="synth">synth</button>
+            </div>
+          </div>
+        </div>
+        <div class="reset_filters_block">
+          <h3>If you're lost:</h3>
+          <button class="reset-tags">RESET ALL!</button>
+        </div>
+      </section>
+      <section>
+        <div class="observer_contaner">
+          <div class="vidoes_container portfolio" id="portfolio"></div>
+          <div id="intersection"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="avatar">
+        <img src="IMG_53ACF2134C5F-1.png" alt="pic" />
+      </div>
+      <div class="footer_about">
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/t.fltv/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/filatovmsk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://t.me/musmaker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="mailto:filatovmsk@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <div class="about_text">
+          <h3>Welcome to my portfolio page!</h3>
+          <p>
+            <br />
+            I'm Tikhon, a professional sound engineer and composer who
+            specializes in creating bespoke music for advertising and film.<br />
+            With over 10 years of experience collaborating with various agencies
+            and brands, I am an artist who is passionate about<br />
+            delivering exceptional music that captures the unique essence of
+            each project. As a multi-instrumentalist and graduated <br />
+            sound-engeener, I possess a deep understanding of music theory and
+            am skilled in playing a wide range of musical instruments.<br />
+          </p>
+          <p class="full_description">
+            If you're looking for a collaborative, and professional music
+            producer who can elevate your project with exceptional music, <br />
+            dont be shy to write me. Get in touch with me and I can bring your
+            vision of sound and music to life!
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
