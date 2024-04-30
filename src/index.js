@@ -1,6 +1,7 @@
 import "./style.css";
 import ids from "./ids.json";
 import { renderPreview } from "./renderPreviewImage";
+import myimg from "./assets/images/IMG_53ACF2134C5F-1.png";
 
 let videos = [...ids];
 let filters = [];
@@ -141,3 +142,8 @@ window.addEventListener("scroll", changeFooterAboutInfoVisibility);
 document.querySelector(".feedback_btn").addEventListener("click", () => {
   footer.classList.add("visible");
 });
+
+// ---------------------------------------------------------
+const avatarImg = document.createElement("img");
+avatarImg.setAttribute("src", myimg);
+document.querySelector(".avatar").appendChild(avatarImg);
